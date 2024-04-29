@@ -1,0 +1,57 @@
+*{                   /* Selector universal para todos los bordes */
+    box-sizing: border-box; 
+    margin: 0;               /* Esto se conoce como NORMALIZACION - Normalize */
+    padding: 0;
+}
+
+body{
+    background-color: white;
+}
+
+/* Sombreados que se usan mucho hoy en dia, para resaltar y dar importancia */
+
+input{
+    margin-top: 50px;
+    margin-left: 50px;
+    border: none;
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2),
+    /* Se puede poner la sombra mas abajo, achicada */
+    padding 5px; /* Para mas espacio */
+}
+
+.caja{   /* estilo */ 
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 255, 255,);  
+
+    /* border-radius: 10px; */
+    /* border: 2px solid red;    */ 
+    
+    color: white;
+    padding-left: 20px;
+    margin-left: 50px;
+    margin-top: 50px;
+    
+    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.295);
+    
+    /* x | y | blur | base | color */
+
+    /* box-shadow */
+    /*  inset:  0px 0px 3px 2px rgb(255, 255, 255),
+    0px 0px 10px 2px white 
+    ; */
+}
+
+ul{
+    padding-left: 20px;
+}
+
+li{
+    list-style-type: none;
+}
+
+h1{
+    color: white;
+    font-family: sans-serif;
+    -webkit-text-stroke: 1px black;
+}

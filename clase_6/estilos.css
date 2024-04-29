@@ -1,0 +1,26 @@
+/* CSS = Cascading Style Sheet / Hija de estilos en cascada */
+
+h2{ color: rgb(255, 0, 191);
+    font-size: 50px;
+}
+
+.subtitulo-especial{
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+*{ /* Selector universal */
+    font-family: sans-serif !important;
+}
+
+.subtitulo-especial{
+    color: yellow;
+}
+
+#super-especial{
+    color: blue;
+}
+
+.subtitulo-especial{
+    color: red
+}

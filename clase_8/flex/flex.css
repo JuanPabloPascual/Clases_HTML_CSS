@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.padre{
+    background-color: green;
+    height: 100vh; /* Viewport height.  */
+    width: 100vw; /* Viewport width.  */ 
+    display: flex;
+    flex-direction: row;
+    gap: 50px; /* espacio entre cajas. Se divide entre column y row, columnas y filas */
+    justify-content: space-around;
+    align-items: center;
+    /* 
+    row-gap: 100px;
+    column-gap: 50px;
+    flex-wrap: wrap; 
+    */
+
+    /* flex-wrap: wrap;  se van para abajo */
+    /* flex-direction: row ; es el valor por defecto. Se pueden poner column, row-reverse */
+}
+
+.padre .hijo{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: blueviolet;
+}
+
+.padre .especial{
+    background-color: red;
+}
